@@ -1,0 +1,27 @@
+{
+  "name": "aprendendo-node-js-questoes",
+  "version": "1.0.0",
+  "description": "Questoes treinamento",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JonasLopesdoO/Aprendendo-Node-JS-Questoes.git"
+  },
+  "author": "Jonas Lopes",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JonasLopesdoO/Aprendendo-Node-JS-Questoes/issues"
+  },
+  "homepage": "https://github.com/JonasLopesdoO/Aprendendo-Node-JS-Questoes#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "ejs": "^2.6.1",
+    "express": "^4.16.4"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.6"
+  }
+}

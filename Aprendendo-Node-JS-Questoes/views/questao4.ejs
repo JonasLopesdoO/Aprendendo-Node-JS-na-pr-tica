@@ -1,0 +1,58 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Atividade mini Training</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <style>
+        .par{
+            color:darkgreen
+        }
+        .impar{
+            color:darkred
+        }
+    </style>
+
+</head>
+<body>
+	<div class="jumbotron col-lg-6">
+		<div class="container">
+			<h1>Tabela criada com for do EJS</h1>
+			<hr></hr>
+		</div>
+		
+		
+		<div id="tabela" class = "">
+	    	<table class="table table-hover">
+			   	 <thead>
+			      <tr>
+			        <th>NÚMERO</th>
+			        <th>Paridade</th>
+			      </tr>
+			    </thead>
+			    <tbody>
+                    <% for(var i=0; i < item4.length; i++) { %>
+                    <tr>
+                        <td><%= item4[i] %></td>
+                        <% if (item4[i] % 2 == 0){ %>
+                            <td class="par"><%= "Par" %></td>
+                        <% } else{ %>  
+                            <td class="impar"><%= "Ímpar" %></td>
+                        <% } %>
+                    </tr>
+                    <% } %>
+                  
+                  
+                  
+			    </tbody>
+		  	</table>
+	  </div>
+	</div>
+	
+	
+	</div>
+	
+</body>
+</html>
