@@ -8,7 +8,6 @@ app.set("views", __dirname + "/views");
 app.set("view engine", "ejs");
 app.use(bodyParser.urlencoded({extended: true}));
 
-
 app.get('/', function (req, res) {
   res.send("Itens mini training OSF");
 });
@@ -35,7 +34,6 @@ app.get('/questao1/:id', function (req, res) {
   });
 
   app.get('/questao3', function (req, res) {
-   
 
     res.send( "Para executar a função, adicione um parâmetro na URL: Exemplo - http://localhost:3050/questao3/6");
   });
